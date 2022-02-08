@@ -1,0 +1,27 @@
+<manifest type="isf" version="1">
+    <url>
+        https://f3b0-5-173-8-159.ngrok.io/iai
+    </url>
+    <additional_parameters>
+        <payment_type_internal>[iai:payment_type]</payment_type_internal>
+        <label_additional_information>[courier_config:label_additional_information]</label_additional_information>
+        <client_additional_adress>[iai:deliveryaddr_address]</client_additional_adress>
+        <client_additional_city>[iai:deliveryaddr_city]</client_additional_city>
+        <client_additional_first_name>[iai:deliveryaddr_firstname]</client_additional_first_name>
+        <client_additional_last_name>[iai:deliveryaddr_lastname]</client_additional_last_name>
+        <client_additional_zip_code>[iai:deliveryaddr_zip]</client_additional_zip_code>
+        <client_additional_country>[iai:deliveryaddr_country_code]</client_additional_country>
+        <client_additional_phone_number>[iai:deliveryaddr_phone]</client_additional_phone_number>
+        <client_additional_sn_order>[iai:order_sn]</client_additional_sn_order>
+        <client_additional_currency>[iai:order_currency]</client_additional_currency>
+        <client_additional_order_worth>[iai:order_worth]</client_additional_order_worth>
+        <client_additional_company_name>[iai:deliveryaddr_additional]</client_additional_company_name>  
+
+        <client_additional_contact_number>[iai:client_phone]</client_additional_contact_number>
+        <client_additional_contact_name>[iai:client_name]</client_additional_contact_name>
+        <client_additional_contact_last_name>[iai:client_lastname]</client_additional_contact_last_name>
+    </additional_parameters>
+    <config>
+    <option type="input" id="label_additional_information" name="Dodatkowe Informacje na etykiecie (max 150znaków)"> </option>
+    </config>
+    </manifest>
